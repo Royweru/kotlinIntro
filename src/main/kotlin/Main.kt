@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     println(age)
     print(name)
 
-    var city:String = "NAirobi"
+    var city:String = "Nairobi"
     var idno:Any = 44
     println(city)
     println(idno)
