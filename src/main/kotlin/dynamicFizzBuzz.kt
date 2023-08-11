@@ -1,5 +1,10 @@
 fun main(args: Array<String>) {
-    for (x in 1..100){
+    println("Enter your first number: ")
+    var y:Int = readln()!!.toInt()
+    println("Enter your second number: ")
+    var z:Int = readln()!!.toInt()
+
+    for (x in y..z){
         if(x % 3 == 0 && x % 5==0){
             println("$x is FizzBuzz")
 
@@ -13,5 +18,4 @@ fun main(args: Array<String>) {
             println(x)
         }
     }
-
 }
