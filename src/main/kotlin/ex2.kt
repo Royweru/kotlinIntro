@@ -1,7 +1,7 @@
 fun main(args:Array<String>) {
     println("Enter your marks: ")
     var marks:Int = readln()!!.toInt()
-    if (marks<=10){
+    if (marks<=29){
         println("E")
     }else if (marks<=39){
       println("D")
