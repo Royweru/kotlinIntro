@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 
 fun printResult(first: Int,second: Int){
     var result = addNums(first, second)
-    println(result)
+    println("Your sum is $result")
 }
 fun addNums(first:Int,second:Int):Int{
     return first + second
